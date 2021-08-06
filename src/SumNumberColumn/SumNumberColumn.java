@@ -8,7 +8,7 @@ public class SumNumberColumn {
                 {2,3,4,5},{2,4,6,7},{4,6,8,2},{2,4,5,6}
         };
         Scanner sc= new Scanner(System.in);
-        System.out.println("NHẬP cột muốn tính tổng");
+        System.out.println("Nhập cột muốn tính tổng");
         int so = sc.nextInt();
         int total=0;
         for(int i=0;i<Array.length;i++){
@@ -20,7 +20,7 @@ public class SumNumberColumn {
         System.out.println( "tổng của cột vừa nhập là"+total);
         System.out.println("mời bạn nhập số cột của mảng");
         int row = sc.nextInt();
-        System.out.println("mời bạn nhập số hang của mảng");
+        System.out.println("mời bạn nhập số hàng của mảng");
         int column = sc.nextInt();
         int[][] matrix= new int[row][column];
         System.out.println("Enter " + matrix.length + " rows and " +
